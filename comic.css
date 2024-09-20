@@ -1,0 +1,9 @@
+@font-face {
+  font-family: Comic;
+  src: url(BackIssuesBB_ital.otf)
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Comic;
+}
