@@ -42,6 +42,8 @@ function appendKey(key) {
 }
 
 function executeCommand(commandLine) {
+    if (!commandLine) return
+    
     const commandLineParts = commandLine.split(' ')
     const commandName = commandLineParts[0]
     const arguments = commandLineParts.slice(1, commandLineParts.length)
