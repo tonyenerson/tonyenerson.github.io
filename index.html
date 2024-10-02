@@ -2,81 +2,111 @@
     <head>
         <title>Tony Enerson - Profile Text</title>
         <link rel="stylesheet" href="index.css" />
+        <script src="index.js" defer></script>
     </head>
     <body>
         <header>
-            <h1>Tony Enerson - Software Developer</h1>
+            <img src="images/avatar-164772.png" class="headerImage" alt="Github avatar icon"/> 
+            <h1>Tony Enerson - Software Developer</h1>    
             <nav>
               <a href="index.html">Text</a>
               <a href="comic.html">Comic</a>
               <a href="shell.html">Shell</a>
             </nav>
-        </header> 
-        <div>
-            <h3>Programming Languages</h3>
-            <ul>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>Java</li>
-                <li>SQL</li>
-                <li>.NET (C#, VB.NET, F#)</li>
-                <li>C++</li>
-                <li>C</li>
-                <li>Bash / CMD / Powershell</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Front End Frameworks</h3>
-            <ul>
-                <li>React Web</li>
-                <li>React Native</li>
-                <li>Web Browser standard libraries</li>
-                <li>Angular Web</li>
-                <li>Android SDK</li>
-                <li>iOS</li>
-                <li>X Windows</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Back End Frameworks</h3>
-            <ul>
-                <li>Node.js</li>
-                <li>SQL Databases</li>
-                <li>.NET Core</li>
-                <li>ASP.NET</li>
-                <li>JSP / EJB</li>
-                <li>Spring</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Hardware / Operating Systems</h3>
-            <ul>
-                <li>Linux</li>
-                <li>Microchip firmware</li>
-                <li>Serial Communications</li>
-                <li>Windows</li>
-                <li>TCP/IP</li>
-                <li>macOS</li>
-                <li>iOS</li>
-                <li>Bluetooth</li>
-                <li>Raspberry Pi</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Deployment Providers</h3>
-            <ul>
-                <li>Amazon AWS</li>
-                <li>Microsoft Azure</li>
-                <li>Heroku</li>
-            </ul>
-        </div>
-        <div>
-            <h3>Development Practices</h3>
-            <ul>
-                <li>Agile / Scrum</li>
-                <li>CI / CD</li>
-                <li>Test Driven Development</li>
-            </ul>
-        </div>
+        </header>
+        <content>
+            <div id="topicList" class="left-side">
+                <input id="topicSearch" class="search-bar" placeholder="Search Topics..."/>
+                <div id="noMatches" class="hide">No matches found</div>
+                <h4>Home</h4>
+                <a>Welcome</a>
+                <h4>Education</h4>
+                <a>University of Alberta</a>
+                <h4>Current Projects</h4>
+                <a>InceptionU</a>
+                <a>StreetMeet</a>
+                <a>Aeras</a>
+                <h4>Past Projects</h4>
+                <a>Arcus Power</a>
+                <a>Duck Labs</a>
+                <a>CGI</a>
+                <a>Lidar Services International</a>
+                <h4>Skills</h4>
+                <a>Programming Languages</a>
+                <a>Front End Frameworks</a>
+                <a>Back End Frameworks</a>
+                <a>Hardware / Operating Systems</a>
+                <a>Deployment Providers</a>
+                <a>Development Practice</a>
+            </div>
+            <div class="center-content">
+                <div class="card">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Java</li>
+                        <li>SQL</li>
+                        <li>.NET (C#, VB.NET, F#)</li>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Bash / CMD / Powershell</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Front End Frameworks</h3>
+                    <ul>
+                        <li>React Web</li>
+                        <li>React Native</li>
+                        <li>Web Browser standard libraries</li>
+                        <li>Angular Web</li>
+                        <li>Android SDK</li>
+                        <li>iOS</li>
+                        <li>X Windows</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Back End Frameworks</h3>
+                    <ul>
+                        <li>Node.js</li>
+                        <li>SQL Databases</li>
+                        <li>.NET Core</li>
+                        <li>ASP.NET</li>
+                        <li>JSP / EJB</li>
+                        <li>Spring</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Hardware / Operating Systems</h3>
+                    <ul>
+                        <li>Linux</li>
+                        <li>Microchip firmware</li>
+                        <li>Serial Communications</li>
+                        <li>Windows</li>
+                        <li>TCP/IP</li>
+                        <li>macOS</li>
+                        <li>iOS</li>
+                        <li>Bluetooth</li>
+                        <li>Raspberry Pi</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Deployment Providers</h3>
+                    <ul>
+                        <li>Amazon AWS</li>
+                        <li>Microsoft Azure</li>
+                        <li>Heroku</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Development Practices</h3>
+                    <ul>
+                        <li>Agile / Scrum</li>
+                        <li>CI / CD</li>
+                        <li>Test Driven Development</li>
+                    </ul>
+                </div>
+            </div>    
+        </content>
     </body>
 </html>

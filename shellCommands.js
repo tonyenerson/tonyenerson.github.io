@@ -75,6 +75,10 @@ function cat(fileName) {
     lines.forEach(writeLine)
 }
 
+function exitShell() {
+    window.history.back()
+}
+
 const commands = {
   help: {
     message: "lists registered commands",
@@ -103,6 +107,10 @@ const commands = {
   cat: {
     message: "prints the contents of a file",
     func: cat
+  },
+  exit: {
+    message: "exit the shell and return to where you came from",
+    func: exitShell
   }
 } 
 
